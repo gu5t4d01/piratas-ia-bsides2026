@@ -5,12 +5,21 @@
 flask>=3.0.0
 httpx>=0.27.0
 
-# Demo 2 — Crescendo: Red Teaming
+# Demo 2 — Abordaje del Galeón: Multi-Template Jailbreak
+# (usa httpx, ya incluido arriba)
+
+# Demo 3, 4, 5 — Crescendo / Ancla / Kraken: PyRIT
 pyrit>=0.11.0
+
+# Demo 6 — Marea Creciente: Social Engineering
+# (usa httpx, ya incluido arriba)
 
 # Ollama corre local — no requiere paquete pip
 # Instalar desde: https://ollama.com
 # Modelos requeridos:
 #   ollama pull gemma2:2b
+#   ollama pull gemma4:e2b
 #   ollama pull llama3.2:3b
+#   ollama pull llama3.1:8b
 #   ollama pull phi3
+#   ollama pull deepseek-r1:8b
